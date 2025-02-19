@@ -17,7 +17,7 @@ class ShowGeo(QWidget):
         self.show_image()
 
     def getImage(self):
-        apikey = '4dbe104a-d5c7-4d20-bb68-3ae6ac4cae00'
+        apikey = 'f756d625-3b52-4f83-8b05-8629dfabdaab'
         map_params = {
             "ll": ",".join([str(self.ll[0]), str(self.ll[1])]),
             "apikey": apikey,
